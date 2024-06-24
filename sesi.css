@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(255, 255, 255);
+    background: url(imagenes/espada.webp) no-repeat;
+    background-size: cover;
+
+}
+
+.nombre{
+    color: #fff;
+}
+a{
+    color: #eee;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration: underline; 
+}
+
+.form input::placeholder {
+    color: white; 
+}
+.form input:hover::placeholder,
+        .form input:focus::placeholder {
+            text-decoration: underline; /* Subraya el placeholder al pasar el cursor o al enfocar */
+        }
+
+.form{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    color: rgb(255, 255, 255); 
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+
+
+}
+.cuadro{
+    
+    width: 100%;
+    margin: 30px 0 ;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 252, 252, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: rgb(51, 125, 190);
+    padding: 20px 45px 20px 20px;
+    color: white;
+
+}
+
+.cuadro1{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    backdrop-filter: blur(20px) ;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    padding: 20px 45px 20px 20px;
+
+}
+.boton{
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+
+}
